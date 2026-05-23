@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.db
+.env
+enrichir_base.py
+app.py
+trial.py
+dashboard.py
