@@ -1,6 +1,7 @@
 import sqlite3  # Importation du module sqlite3 pour interagir avec la base de données SQLite
  
-DB = r"C:\Users\gkamm\Downloads\projet_aerodrome portoflio\NNN.db"  # Chemin absolu vers la base de données
+import os
+DB = os.path.join(os.path.dirname(__file__), "NNN.db")
  
 # ============================================================================
 # CONNEXION
