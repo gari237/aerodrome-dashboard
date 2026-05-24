@@ -3,7 +3,7 @@ import requests  # Pour les appels HTTP vers l'API
 import pandas as pd  # Manipulation des données
 import plotly.express as px  # Graphiques interactifs
 
-API = "http://127.0.0.1:8000"  # URL de base de l'API FastAPI
+API = "https://aerodrome-api.onrender.com"  # URL de base de l'API FastAPI
 
 st.set_page_config(page_title="Aérodrome", page_icon="✈️", layout="wide")  # Configuration de la page
 
